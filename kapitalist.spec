@@ -10,7 +10,7 @@ Version:	0.4
 Release:	0.1
 License:	GPL v2
 Group:		Applications/Games/Boards
-Source0:	http://dl.sourceforge.net/capitalist/%{name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/kapitalist/%{name}-%{version}.tar.gz
 # Source0-md5:	6733eec1d441d05b8df8ce3d91d5e7ca
 URL:		http://kapitalist.sourceforge.net/
 Suggests:	capitalist
