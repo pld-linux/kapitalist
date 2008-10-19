@@ -3,7 +3,7 @@
 # - install documentation
 # - call autotools
 #
-Summary:	The Monopoly®-like board game
+Summary:	The Monopoly-like board game
 Summary(pl.UTF-8):	Gra planszowa typu Monopoly®.
 Name:		kapitalist
 Version:	0.4
@@ -17,7 +17,7 @@ Suggests:	capitalist
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Kapitalist is a Monopoly®-like board game for 2-8 players. Walk around
+Kapitalist is a Monopoly-like board game for 2-8 players. Walk around
 the board, buy properties, receive rent from your competitors, try to
 get monopolies to build houses and hotels on them and finally be the
 richest on the board.
