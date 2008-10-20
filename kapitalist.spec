@@ -13,6 +13,7 @@ Group:		Applications/Games/Boards
 Source0:	http://dl.sourceforge.net/kapitalist/%{name}-%{version}.tar.gz
 # Source0-md5:	6733eec1d441d05b8df8ce3d91d5e7ca
 URL:		http://kapitalist.sourceforge.net/
+BuildRequires:	rpmbuild(macros) >= 1.129
 Suggests:	capitalist
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -46,7 +47,8 @@ zainstalować pakiet capitalist.
 rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
-	DESTDIR=$RPM_BUILD_ROOT
+	DESTDIR=$RPM_BUILD_ROOT \
+	kde_htmldir=%{_kdedocdir}
 
 rm -rf $RPM_BUILD_ROOT%{_datadir}/applnk
 
@@ -61,3 +63,19 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/apps/kapitalist
 %{_iconsdir}/hicolor/16x16/apps/kapitalist.png
 %{_iconsdir}/hicolor/32x32/apps/kapitalist.png
+%dir %{_kdedocdir}/HTML/en/kapitalist
+%lang(en) %{_kdedocdir}/HTML/en/kapitalist/en/kapitalist/client-usage.html
+%lang(en) %{_kdedocdir}/HTML/en/kapitalist/en/kapitalist/cmdline-ref.html
+%lang(en) %{_kdedocdir}/HTML/en/kapitalist/en/kapitalist/common
+%lang(en) %{_kdedocdir}/HTML/en/kapitalist/en/kapitalist/compilation.html
+%lang(en) %{_kdedocdir}/HTML/en/kapitalist/en/kapitalist/configuration.html
+%lang(en) %{_kdedocdir}/HTML/en/kapitalist/en/kapitalist/credits.html
+%lang(en) %{_kdedocdir}/HTML/en/kapitalist/en/kapitalist/faq.html
+%lang(en) %{_kdedocdir}/HTML/en/kapitalist/en/kapitalist/gui_reference.html
+%lang(en) %{_kdedocdir}/HTML/en/kapitalist/en/kapitalist/index.cache.bz2
+%lang(en) %{_kdedocdir}/HTML/en/kapitalist/en/kapitalist/index.docbook
+%lang(en) %{_kdedocdir}/HTML/en/kapitalist/en/kapitalist/index.html
+%lang(en) %{_kdedocdir}/HTML/en/kapitalist/en/kapitalist/installation.html
+%lang(en) %{_kdedocdir}/HTML/en/kapitalist/en/kapitalist/introduction.html
+%lang(en) %{_kdedocdir}/HTML/en/kapitalist/en/kapitalist/requirements.html
+%lang(en) %{_kdedocdir}/HTML/en/kapitalist/en/kapitalist/using-kapitalist.html
