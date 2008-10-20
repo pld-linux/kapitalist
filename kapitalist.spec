@@ -13,7 +13,14 @@ Group:		Applications/Games/Boards
 Source0:	http://dl.sourceforge.net/kapitalist/%{name}-%{version}.tar.gz
 # Source0-md5:	6733eec1d441d05b8df8ce3d91d5e7ca
 URL:		http://kapitalist.sourceforge.net/
+BuildRequires:	Mesa-libGLU-devel
+BuildRequires:	bzip2-devel
+BuildRequires:	kdelibs-devel
+BuildRequires:	libstdc++-devel
+BuildRequires:	libtiff-devel
+BuildRequires:	openssl-devel
 BuildRequires:	rpmbuild(macros) >= 1.129
+BuildRequires:	zlib-devel
 Suggests:	capitalist
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
