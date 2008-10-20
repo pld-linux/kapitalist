@@ -63,19 +63,19 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/apps/kapitalist
 %{_iconsdir}/hicolor/16x16/apps/kapitalist.png
 %{_iconsdir}/hicolor/32x32/apps/kapitalist.png
-%dir %{_kdedocdir}/HTML/en/kapitalist
-%lang(en) %{_kdedocdir}/HTML/en/kapitalist/en/kapitalist/client-usage.html
-%lang(en) %{_kdedocdir}/HTML/en/kapitalist/en/kapitalist/cmdline-ref.html
-%lang(en) %{_kdedocdir}/HTML/en/kapitalist/en/kapitalist/common
-%lang(en) %{_kdedocdir}/HTML/en/kapitalist/en/kapitalist/compilation.html
-%lang(en) %{_kdedocdir}/HTML/en/kapitalist/en/kapitalist/configuration.html
-%lang(en) %{_kdedocdir}/HTML/en/kapitalist/en/kapitalist/credits.html
-%lang(en) %{_kdedocdir}/HTML/en/kapitalist/en/kapitalist/faq.html
-%lang(en) %{_kdedocdir}/HTML/en/kapitalist/en/kapitalist/gui_reference.html
-%lang(en) %{_kdedocdir}/HTML/en/kapitalist/en/kapitalist/index.cache.bz2
-%lang(en) %{_kdedocdir}/HTML/en/kapitalist/en/kapitalist/index.docbook
-%lang(en) %{_kdedocdir}/HTML/en/kapitalist/en/kapitalist/index.html
-%lang(en) %{_kdedocdir}/HTML/en/kapitalist/en/kapitalist/installation.html
-%lang(en) %{_kdedocdir}/HTML/en/kapitalist/en/kapitalist/introduction.html
-%lang(en) %{_kdedocdir}/HTML/en/kapitalist/en/kapitalist/requirements.html
-%lang(en) %{_kdedocdir}/HTML/en/kapitalist/en/kapitalist/using-kapitalist.html
+%dir %{_kdedocdir}/en/kapitalist
+%lang(en) %{_kdedocdir}/en/kapitalist/client-usage.html
+%lang(en) %{_kdedocdir}/en/kapitalist/cmdline-ref.html
+%lang(en) %{_kdedocdir}/en/kapitalist/common
+%lang(en) %{_kdedocdir}/en/kapitalist/compilation.html
+%lang(en) %{_kdedocdir}/en/kapitalist/configuration.html
+%lang(en) %{_kdedocdir}/en/kapitalist/credits.html
+%lang(en) %{_kdedocdir}/en/kapitalist/faq.html
+%lang(en) %{_kdedocdir}/en/kapitalist/gui_reference.html
+%lang(en) %{_kdedocdir}/en/kapitalist/index.cache.bz2
+%lang(en) %{_kdedocdir}/en/kapitalist/index.docbook
+%lang(en) %{_kdedocdir}/en/kapitalist/index.html
+%lang(en) %{_kdedocdir}/en/kapitalist/installation.html
+%lang(en) %{_kdedocdir}/en/kapitalist/introduction.html
+%lang(en) %{_kdedocdir}/en/kapitalist/requirements.html
+%lang(en) %{_kdedocdir}/en/kapitalist/using-kapitalist.html
