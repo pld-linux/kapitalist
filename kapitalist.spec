@@ -7,7 +7,7 @@ Summary(en.UTF-8):	The Monopoly-like board game®
 Summary(pl.UTF-8):	Gra planszowa typu Monopoly®
 Name:		kapitalist
 Version:	0.4
-Release:	1
+Release:	2
 License:	GPL v2
 Group:		Applications/Games/Boards
 Source0:	http://dl.sourceforge.net/kapitalist/%{name}-%{version}.tar.gz
